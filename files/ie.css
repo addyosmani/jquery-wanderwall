@@ -1,0 +1,28 @@
+#mantle { background-image:url('../images/iebar.jpg');}
+body { background-image:url('../images/iegradfull.jpg');}
+#mantletext h2
+{
+clear:both;
+font-size:120px;
+line-height:120px;
+margin-top:-20px;
+float:left;
+}
+
+#mantletext h3 {
+clear:both;
+  float:left;
+  margin-top:-20px;
+}
+
+#mantletext h4{
+margin-top:-20px;
+clear:both;
+float:left;
+}
+
+.frame a span { line-height:50px}
+
+#mantleright {
+ display:none;
+}

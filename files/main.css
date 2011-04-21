@@ -1,0 +1,303 @@
+/* 
+This CSS File contains stylesheet information for the jQuery WanderWall project by Addy Osmani. 
+Portions of this file include CSS3 declarations which may not render in your current browser.
+Testing has been conducted on FF 3.6, Chrome, Safari 4.0 and IE 6.0 for backwards compatibility.
+
+
+*/
+
+/*Generic body and list styling*/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+ul,li {
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+html, body {
+	width: 100%;
+	background-color: black;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+/*Defaults for clear and focus*/
+
+:focus {
+	outline: 0;
+}
+
+.clear:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+* html .clear {
+	height: 1%;
+}
+
+/*Overall Wrapper*/
+
+.wrapper {
+	width: 1005px;
+	margin: 0 auto;
+}
+
+/*Defaults for page links*/
+
+a,a:link, a:visited {
+	text-decoration: none;
+	color: #C52A0B;
+}
+
+a:hover {
+	color: #448da6;
+}
+
+img {
+	border: 0;
+}
+
+* {
+	zoom: 1;
+}
+
+/*Begin WanderWall Styling*/
+
+body {
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.09, rgb(153,153,153)),
+    color-stop(0.55, rgb(242,242,242)),
+    color-stop(0.78, rgb(240,237,240))
+);
+	background: -moz-linear-gradient(
+    center bottom,
+    rgb(153,153,153) 9%,
+    rgb(242,242,242) 55%,
+    rgb(240,237,240) 78%
+);
+}
+
+#mantle {
+	width: 100%;
+	height: 30px;
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.09, rgb(153,153,153)),
+    color-stop(0.55, rgb(242,242,242)),
+    color-stop(0.78, rgb(252,252,252))
+);
+	background: -moz-linear-gradient(
+    center bottom,
+    rgb(153,153,153) 9%,
+    rgb(242,242,242) 55%,
+    rgb(252,252,252) 78%
+);
+	-webkit-background-origin: padding;
+	-webkit-background-clip: content;
+	border-bottom: 1px solid #fff;
+}
+
+#infoframe {
+	width: 450px;
+	height: 190px;
+	margin-top: -190px;
+	display: none;
+	position: absolute;
+	background-image: url("");
+	background-repeat: no-repeat;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'LeagueGothicRegular', sans-serif;
+	font-size-adjust: 0.55;
+	letter-spacing: -1px;
+	color: white;
+	font-size: 60px;
+	line-height: 60px;
+	text-shadow: 2px 2px 2px #0A0A0A;
+	text-transform: uppercase;
+}
+
+.center {
+	text-align: center;
+	width: 100%;
+}
+
+.pageholder {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.page {
+	float: left;
+	width: 1347px;
+}
+
+.page:first-child {
+	width: 1347px;
+}
+
+.pageslider {
+	height: 270px;
+	overflow-y: hidden;
+	width: 7000px;
+}
+
+#homelink {
+	display: none;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'LeagueGothicRegular', sans-serif;
+	font-size-adjust: 0.55;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#mantletext {
+	margin: 0 auto;
+	margin-top: 40px;
+	font-family: 'LeagueGothicRegular', sans-serif;
+	font-size-adjust: 0.55;
+	letter-spacing: -1px;
+	color: #1f1f1f;
+	font-size: 80px;
+	text-transform: uppercase;
+	line-height: 85px;
+	text-shadow: 0 1px 0 #FFFFFF;
+	margin-left: 190px;
+	float: left;
+}
+
+#mantletext h2 {
+	margin: 0 auto;
+	color: #444444;
+	letter-spacing: -1px;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#mantletext h3 {
+	font-size: 80px;
+}
+
+#mantletext h4 {
+	font-size: 30px;
+	margin-left: 10px;
+	margin-top: -25px;
+}
+
+#mantleright {
+	float: left;
+	width: 300px;
+	margin-left: 200px;
+	color: #444444;
+	letter-spacing: -1px;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-family: 'LeagueGothicRegular', sans-serif;
+	font-size-adjust: 0.55;
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+#mantleright a {
+	color: #444444;
+}
+
+header {
+	width: 100%;
+	height: 98px;
+	display: block;
+}
+
+#wanderwall {
+	height: 268px;
+	background-position: 50% 0px;
+	background: transparent no-repeat scroll center top;
+}
+
+#wanderwall .wrapper {
+	width: 1004px;
+}
+
+.frame {
+	background-image: url('../images/frame_.png');
+	width: 226px;
+	height: 171px;
+	font-size: 19px;
+	color: #6c6c6b;
+	float: left;
+	display: inline;
+	margin: 50px 15px 0;
+	line-height: 25px;
+	text-align: center;
+}
+
+.frame a {
+	width: 220px;
+	height: 110px;
+	display: block;
+	padding: 35px 0 0;
+	color: #3d3d3d;
+	margin-top: 20px;
+}
+
+.frame span {
+	font-size: 24px;
+	margin: 1px 0 0;
+	font-family: 'LeagueGothicRegular', sans-serif;
+	font-size-adjust: 0.55;
+	letter-spacing: -1px;
+	color: #666;
+	font-size: 40px;
+}
+
+.first {
+	margin-left: 0;
+}
+
+.fourth {
+	margin-right: 0;
+}
+
+#overlay {
+	width: 100%;
+	height: 109px;
+	background: rgba(107,115,114,.3);
+	margin: -55px 0 0;
+	z-index: 2;
+	margin-top: 100px;
+}
+
+#content #left {
+	width: 615px;
+	float: left;
+}
+
+#content #right {
+	width: 340px;
+	float: right;
+}
+
+.frame:hover {
+	-webkit-transform: rotate(-9deg);
+	-moz-transform: rotate(-9deg);
+}
+
+#wanderwall {
+	background-image: url("../images/test_5.jpg")
+}
